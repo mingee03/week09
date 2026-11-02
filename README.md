@@ -4,7 +4,7 @@
 
 * **주제:** Spring Data JPA와 MariaDB를 활용한 영화(Movie) 정보 관리 RESTful CRUD 웹 애플리케이션
 * **기능:** POST, GET, PUT, DELETE, Render 배포, MariaDB 연동
-  
+* **프로젝트 구조:** Controller → Service → JpaRepository → Hibernate → MariaDB
 * **Entity 필드 구조 (`Movie`):**
   * id, title, director, genre, runtime, rating, releaseYear
 

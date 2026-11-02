@@ -49,9 +49,12 @@ SELECT * FROM movie_sql WHERE genre = 'SF';
 
 SELECT * FROM movie_sql; 전체 조회 결과 화면
 
+<img width="787" height="481" alt="image" src="https://github.com/user-attachments/assets/d4c7177b-0bb8-4f6b-987a-0a9ec0b25217" />
+
 
 SELECT * FROM movie_sql WHERE genre = 'SF'; 조건 조회 결과 화면
 
+<img width="827" height="505" alt="image" src="https://github.com/user-attachments/assets/4645ae0b-adf8-49bd-a4e3-406819450f90" />
 
 ---
 
@@ -132,13 +135,23 @@ spring.datasource.password=${DB_PASSWORD}
 
 ### 3. 배포 URL CRUD 테스트 및 DB 반영 확인
 
-> 📸 **[스크린샷 삽입 위치 1: Render 대시보드 Live 상태 화면]**
+1: Render 대시보드 Live 상태 화면
 
-> 📸 **[스크린샷 삽입 위치 2: Postman에서 배포 URL로 POST 등록 성공 화면 (201 Created)]**
+<img width="1432" height="801" alt="image" src="https://github.com/user-attachments/assets/77ad443b-101e-4f62-8738-9b312fce0ffc" />
 
-> 📸 **[스크린샷 삽입 위치 3: Postman에서 배포 URL로 GET 전체 조회 결과 화면 (200 OK)]**
+2: Postman에서 배포 URL로 POST 등록 성공 화면
 
-> 📸 **[스크린샷 삽입 위치 4: DBeaver에서 SELECT * FROM movies; 로 저장 확인된 결과 표]**
+<img width="922" height="850" alt="image" src="https://github.com/user-attachments/assets/497648e5-625b-40e5-887c-9325d4dc3cdb" />
+
+3: Postman에서 배포 URL로 GET 전체 조회 결과 화면
+
+<img width="1112" height="877" alt="image" src="https://github.com/user-attachments/assets/f715035f-9daa-4188-be49-c7796721c4d5" />
+
+
+4: DBeaver에서 SELECT * FROM movies; 로 저장 확인된 결과 표
+
+<img width="1027" height="552" alt="image" src="https://github.com/user-attachments/assets/634fc9c5-0f14-45cd-9591-0399e8312c74" />
+
 
 ---
 
